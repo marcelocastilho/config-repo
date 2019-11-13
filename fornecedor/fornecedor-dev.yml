@@ -1,0 +1,9 @@
+#este arquivo é buscado durante o bootstrap application context por isso deve ser carregado antes
+spring:
+  datasource:
+      password: rootdev
+      username: rootdev
+      url: jdbc:mysql://localhost:3306/fornecedor
+  jpa:
+    hibernate:
+      ddl-auto: update
