@@ -1,3 +1,6 @@
+
+#este arquivo é buscado durante o bootstrap application context por isso deve ser carregado antes
+
 spring:
   datasource:
       password: root
